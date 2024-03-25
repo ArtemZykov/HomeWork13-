@@ -3,7 +3,7 @@ public class Person {
     String surname;
 
     public static void changePerson(Person person) {
-        //person = new Person(); // task10 объявил новую переменную,
+        //person = new Person(); // task10 объявил новую переменную, по итогу в классе main  выводится начальные значения переменной
         person.name = "Ilya";
         person.surname = "Lagutenko";
     }
